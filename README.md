@@ -10,8 +10,8 @@
 -------------------------------------------------------------------------------------------------------------------------
  
 ##**DAY 2**
-1. **Search in Rotated Sorted Array** (https://leetcode.com/problems/search-in-rotated-sorted-array/)
-2. **Spiral Matrix** (https://leetcode.com/problems/spiral-matrix/)
-3. **Merge Intervals** (https://leetcode.com/problems/merge-intervals/)
-4. **Three Sum** (https://leetcode.com/problems/3sum/)
-5. **Subdomain Visit Count** (https://leetcode.com/problems/subdomain-visit-count/)
+1. [**Search in Rotated Sorted Array**](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+2. [**Spiral Matrix**](https://leetcode.com/problems/spiral-matrix/)
+3. [**Merge Intervals**](https://leetcode.com/problems/merge-intervals/)
+4. [**Three Sum**](https://leetcode.com/problems/3sum/)
+5. [**Subdomain Visit Count**](https://leetcode.com/problems/subdomain-visit-count/)

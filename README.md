@@ -2,7 +2,7 @@
 
 ##**DAY 1**
 
-1. **Multiply Strings** (https://leetcode.com/problems/multiply-strings/)
+1. [**Multiply Strings**] (https://leetcode.com/problems/multiply-strings/)
 2. **String Compression** (https://leetcode.com/problems/string-compression/)
 3. **Merge k Sorted Lists** (https://leetcode.com/problems/merge-k-sorted-lists/)
 4. **Merge Sorted Array** (https://leetcode.com/problems/merge-sorted-array/)

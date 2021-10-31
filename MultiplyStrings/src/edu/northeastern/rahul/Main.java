@@ -3,8 +3,8 @@ package edu.northeastern.rahul;
 public class Main {
 
     public static void main(String[] args) {
-        String num1 = "150";
-        String num2 = "25";
+        String num1 = "231";
+        String num2 = "255";
 
         System.out.println(multiply(num1, num2));
 

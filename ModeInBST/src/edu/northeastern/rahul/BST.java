@@ -38,7 +38,6 @@ public class BST  {
     }
 
     private Map<Integer, Integer> countOccurrence(ArrayList<Integer> list, Map<Integer,Integer> countBST){
-        System.out.println();
         for (int i = 0; i < list.size() ; i++) {
             if(countBST.containsKey(list.get(i))){
                 countBST.put(list.get(i),countBST.get(list.get(i))+1);

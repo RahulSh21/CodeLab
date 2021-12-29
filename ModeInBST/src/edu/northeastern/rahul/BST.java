@@ -14,17 +14,18 @@ public class BST  {
         Map<Integer,Integer> countBST = new HashMap<Integer, Integer>();
         countOccurrence(list, countBST);
 
-        int maxKey = 0;
-        int maxValue = 0;
+        int nodeValue = 0;
+        int occurringTime = 0;
+
         for(int i : countBST.keySet())
         {
-            if(countBST.get(i) > maxValue)
+            if(countBST.get(i) > occurringTime)
             {
-                maxKey = i;
-                maxValue = countBST.get(i);
+                nodeValue = i;
+                occurringTime = countBST.get(i);
             }
         }
-            return (Integer.toString(maxKey)+ " occurred "+ Integer.toString(maxValue)+" times.");
+            return (Integer.toString(nodeValue)+ " occurred "+ Integer.toString(occurringTime)+" times.");
     }
 
     private void  getList(Node node, ArrayList<Integer> list){

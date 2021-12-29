@@ -8,10 +8,10 @@ public class BST  {
     public Node root;
 
 
-    public String findMaxOccuringValueInATree(){
+    public String findMaxOccurringValueInATree(){
         ArrayList<Integer> list = new ArrayList<>();
         getList(root, list);
-        Map<Integer,Integer> countBST = new HashMap<Integer, Integer>();
+        Map<Integer,Integer> countBST = new HashMap<>();
         countOccurrence(list, countBST);
 
         int nodeValue = 0;
@@ -25,7 +25,7 @@ public class BST  {
                 occurringTime = countBST.get(i);
             }
         }
-            return (Integer.toString(nodeValue)+ " occurred "+ Integer.toString(occurringTime)+" times.");
+            return (nodeValue + " occurred "+ occurringTime +" times.");
     }
 
     private void  getList(Node node, ArrayList<Integer> list){
@@ -38,11 +38,11 @@ public class BST  {
     }
 
     private Map<Integer, Integer> countOccurrence(ArrayList<Integer> list, Map<Integer,Integer> countBST){
-        for (int i = 0; i < list.size() ; i++) {
-            if(countBST.containsKey(list.get(i))){
-                countBST.put(list.get(i),countBST.get(list.get(i))+1);
-            }else{
-                countBST.put(list.get(i), 1);
+        for (Integer integer : list) {
+            if (countBST.containsKey(integer)) {
+                countBST.put(integer, countBST.get(integer) + 1);
+            } else {
+                countBST.put(integer, 1);
             }
         }
         return countBST;

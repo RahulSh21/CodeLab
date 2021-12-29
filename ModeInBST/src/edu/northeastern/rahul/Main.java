@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         BST tree = new BST();
         tree.root = createBST();
-        System.out.println(tree.findMaxOccuringValueInATree());
+        System.out.println(tree.findMaxOccurringValueInATree());
 
     }
 
